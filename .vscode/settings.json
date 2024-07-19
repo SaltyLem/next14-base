@@ -1,0 +1,26 @@
+{
+  // ESLintを保存時に実行
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  // Prettierを保存時に実行
+  "editor.formatOnSave": true,
+  // Prettierは現時点で動作しないので無効化
+  "editor.formatOnType": false,
+  // こちらは不要になるので無効化
+  "typescript.format.enable": false,
+  // import 文の補完時にmodule名を優先する
+  "typescript.preferences.importModuleSpecifier": "relative",
+  // prettier を利用
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "json.format.enable": false,
+  "html.format.enable": false,
+  "eslint.validate": ["markdown", "graphql"],
+  "tailwindCSS.classAttributes": [
+    "Class",
+    "ClassName",
+    "ngClass",
+    ".*ClassNames"
+  ]
+}
